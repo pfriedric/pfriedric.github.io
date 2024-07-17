@@ -156,7 +156,7 @@ body.dark-mode {
 }
 
 body.dark-mode a {
-  color: #9ab; /* Lighter link color for dark mode */
+  color: #6a9fd4; /* Lighter link color for dark mode */
 }
 
 body.dark-mode a:hover {
