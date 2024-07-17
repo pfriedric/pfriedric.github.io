@@ -147,3 +147,19 @@ h1 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+body.dark-mode a {
+  color: #9ab; /* Lighter link color for dark mode */
+}
+
+body.dark-mode a:hover {
+  color: #f0e; /* Different hover color in dark mode */
+}
+/* ---------------- */

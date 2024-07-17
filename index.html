@@ -10,8 +10,19 @@
   
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark-mode');
+        }
+      });
+    </script>
+
 </head>
 
+<!-- Script to detect dark mode based on user browser preferences -->
 <script type="text/javascript">
 function toggle_vis(id) {
     var e = document.getElementById(id);
